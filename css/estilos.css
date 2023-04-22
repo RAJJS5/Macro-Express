@@ -24,6 +24,12 @@ body {
     text-align: center;
     margin-bottom: 60px;
 }
+.titulo2 {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
 /* a */
 .fila {
     display: flex;
@@ -37,7 +43,26 @@ body {
     box-sizing: border-box;
     padding: 20px;
   }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
   
+  .columnaa {
+    flex-basis: 33.33%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .columnaa h2 {
+    font-weight: bold;
+  }
+  .responsive-imagee {
+    width: 80%;
+    height: auto;
+  }
   .columna-izquierda {
     margin-right: 10%;
   }
@@ -208,6 +233,7 @@ main .sobre-nosotros{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 .hover-galeria2{
     position: absolute;
@@ -221,6 +247,7 @@ main .sobre-nosotros{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .hover-galeria img{
