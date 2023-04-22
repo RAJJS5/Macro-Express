@@ -63,10 +63,6 @@ body {
     .contenedor-footer {
       flex-direction: columnaa;
     }
-    .content-foo,
-    .content-foo2 {
-      margin-bottom: 20px;
-    }
   }
   .responsive-imagee {
     width: 80%;
