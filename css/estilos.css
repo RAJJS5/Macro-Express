@@ -59,6 +59,15 @@ body {
   .columnaa h2 {
     font-weight: bold;
   }
+  @media screen and (max-width: 768px) {
+    .contenedor-footer {
+      flex-direction: columnaa;
+    }
+    .content-foo,
+    .content-foo2 {
+      margin-bottom: 20px;
+    }
+  }
   .responsive-imagee {
     width: 80%;
     height: auto;
